@@ -1,0 +1,36 @@
+.head {
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--border-cabecera-mobile);
+    color: var(--background-blanco);
+    display: flex;
+    flex-direction: column;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    position: absolute;  
+    width: 100%;
+}
+
+.head__logo {
+    margin-bottom: 1rem;
+}
+
+.head__navegacion {
+    text-align: center;
+}
+
+.head__enlace {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+}
+@media screen and (min-width: 1024px) {
+    .head {
+        border: none;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
